@@ -22,9 +22,9 @@ The proposed solution connects patients, blood donors, hospitals, blood banks, a
 
 ## 🛠️ Technologies Used
 
-Frontend: React.js, Vite, JavaScript, HTML5, CSS3, Tailwind CSS, Lucide React.
-Backend: Node.js, Express.js, REST APIs, MySQL, JWT, bcrypt, CORS, dotenv.
-AI & Tools: Google AI Studio, n8n, AI Voice Agent, Git, GitHub, and Visual Studio Code.
+Frontend: React.js, Vite, JavaScript, HTML5, CSS3, Tailwind CSS, Lucide React.<br>
+Backend: Node.js, Express.js, REST APIs, MySQL, JWT, bcrypt, CORS, dotenv.<br>
+AI & Tools: Google AI Studio, n8n, AI Voice Agent, Git, GitHub, and Visual Studio Code.<br>
 
 
 ## 🏗️ System Architecture
