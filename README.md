@@ -168,6 +168,28 @@ Live URL:https://bloodbridge.ai.studio/<br>
 
 Demo Video:https://drive.google.com/file/d/1ytkBcrBqQMq4Nfx1BSiXcZeE_tEJm96H/view?usp=sharing<br>
 
+## Deployment
+
+
+BloodBridge was built completely from scratch using Visual Studio Code, with separate frontend and backend components.
+
+
+
+The frontend was developed using React.js, Vite, JavaScript, HTML, CSS, and Tailwind CSS. The backend was developed using Node.js and Express.js, with MySQL used for data storage and REST APIs used for communication between the frontend and backend.
+```
+VS Code
+   │
+   ├── Frontend
+   │   └── React + Vite
+   │
+   ├── Backend
+   │   └── Node.js + Express
+   │
+   └── Database
+       └── MySQL
+```
+
+## Screenshots
 
 ## What's built so far
 
