@@ -190,10 +190,10 @@ VS Code
 ```
 
 ## Screenshots
-<img width="1907" height="947" alt="Image" src="https://github.com/user-attachments/assets/b595cad7-d3bd-4574-bae3-433b7dc748cc" /><br>
-<img width="1900" height="913" alt="Image" src="https://github.com/user-attachments/assets/c434c9e1-321f-4b47-bade-829726e6de7c" /><br>
-<img width="1902" height="935" alt="Image" src="https://github.com/user-attachments/assets/fe2d24f7-12e4-4b12-acb3-c10fb82d18cf" /><br>
-<img width="1892" height="930" alt="Image" src="https://github.com/user-attachments/assets/85880c20-265e-444b-b4fc-e1a26b781c50" /><br>
+<img width="1907" height="947" alt="Image" src="https://github.com/user-attachments/assets/b595cad7-d3bd-4574-bae3-433b7dc748cc" /><br><br><br>
+<img width="1900" height="913" alt="Image" src="https://github.com/user-attachments/assets/c434c9e1-321f-4b47-bade-829726e6de7c" /><br><br><br>
+<img width="1902" height="935" alt="Image" src="https://github.com/user-attachments/assets/fe2d24f7-12e4-4b12-acb3-c10fb82d18cf" /><br><br><br>
+<img width="1892" height="930" alt="Image" src="https://github.com/user-attachments/assets/85880c20-265e-444b-b4fc-e1a26b781c50" /><br><br><br>
 
 ## What's built so far
 
