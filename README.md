@@ -47,7 +47,7 @@ Users / Donors / Hospitals / Blood Banks / Ambulances
 
 
 ```
-## Features
+##  ✨ Features
 
 
 1.Secure User Authentication – Sign up, login, JWT authentication, and role-based access.<br>
@@ -62,7 +62,7 @@ Users / Donors / Hospitals / Blood Banks / Ambulances
 10.Admin Command Center – Monitor donors, hospitals, blood banks, ambulances, requests, and system activity.<br>
 
 
-## Installation
+## 📦 Installation
 ```
 git clone <repository-url>
 cd BloodBridge
@@ -84,7 +84,7 @@ npm run dev
 
 Open http://localhost:5173 in your browser to run BloodBridge.
 
-## How to Run
+## ▶️ How to Run
 
 Start the MySQL database and make sure the bloodbridge database is configured.<br>
 Start the Backend:
@@ -106,7 +106,7 @@ http://localhost:5173
 Login / Sign Up and start using the BloodBridge platform.
 
 
-## Demo
+## 🎥 Demo
 Live Demo:https://bloodbridge.ai.studio/
 <br>
 Demo Video:https://drive.google.com/file/d/1ytkBcrBqQMq4Nfx1BSiXcZeE_tEJm96H/view
@@ -114,7 +114,7 @@ Demo Video:https://drive.google.com/file/d/1ytkBcrBqQMq4Nfx1BSiXcZeE_tEJm96H/vie
 PPT Link:https://docs.google.com/presentation/d/1I8kdt1G5Qte4j4KW8JklOIncKJk5T7mB/edit?usp=sharing&ouid=104249712739982230395&rtpof=true&sd=true
 <br>
 
-## Deployment
+## 🚀 Deployment
 
 
 BloodBridge was built from scratch in Visual Studio Code, with a React/Vite frontend, Node.js/Express backend, and MySQL database. After completing and testing the application locally, the project was integrated with Google AI Studio for the final application workflow and demonstration.
