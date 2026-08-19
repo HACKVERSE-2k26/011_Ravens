@@ -1,4 +1,4 @@
-## HACKVERSE 2026
+### HACKVERSE 2026
 # 👥 Team Members
 1.Samala Siddartha-Team leader(Architecture)
 2.Yanamadala Harsha Krishna-Frontend
