@@ -1,4 +1,4 @@
-## Smart Blood Donar Discovery & Emergency Blood Request Management Platform
+### 🩸 Smart Blood Donar Discovery & Emergency Blood Request Management Platform
 
 ## Problem Statement
 Blood is one of the most critical resources required during medical emergencies, accidents, surgeries, and other life-threatening situations. However, finding the right blood group at the right time remains a major challenge. Traditional blood donation systems often depend on manual phone calls, social media requests, and disconnected records maintained by hospitals and blood banks. These processes can cause significant delays, especially when a patient requires blood urgently.
