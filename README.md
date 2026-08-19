@@ -1,3 +1,10 @@
+#HACKVERSE 2026
+## 👥 Team Members
+1.Samala Siddartha-Team leader(Architecture)
+2.Yanamadala Harsha Krishna-Frontend
+3.Vadakattu Bharath-n8n workflow(calling mechanism)
+4.Vanavoju Varshitha-Backend
+
 ### 🩸 Smart Blood Donar Discovery & Emergency Blood Request Management Platform
 
 ## Problem Statement
