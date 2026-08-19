@@ -13,7 +13,7 @@ Blood is one of the most critical resources required during medical emergencies,
 BloodBridge is proposed as a smart, centralized platform that connects blood donors, patients, hospitals, blood banks, and ambulance services in a single digital ecosystem. The primary goal of the platform is to reduce the time required to identify suitable blood donors and improve coordination during emergency situations.
 <br>
 
-## Proposed Solution
+## 💡 Proposed Solution
 
 BloodBridge – Smart Blood Donor Discovery & Emergency Blood Request Management Platform is a centralized healthcare platform designed to solve the delay and coordination problems involved in finding compatible blood during medical emergencies.
 
