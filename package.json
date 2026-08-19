@@ -1,38 +1,44 @@
 {
-  "name": "bloodbridge-backend",
-  "version": "0.1.0",
-  "description": "BloodBridge — Smart Blood Donor Discovery & Emergency Blood Request Management Platform (backend)",
-  "main": "dist/app.js",
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/app.js",
-    "migrate": "node dist/../database/migrate.js",
-    "test": "jest"
+  "name": "@bcoe/v8-coverage",
+  "version": "0.2.3",
+  "description": "Helper functions for V8 coverage files.",
+  "author": "Charles Samborski <demurgos@demurgos.net> (https://demurgos.net)",
+  "license": "MIT",
+  "main": "index",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/demurgos/v8-coverage.git"
   },
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "express-rate-limit": "^7.4.0",
-    "helmet": "^7.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.11.0",
-    "socket.io": "^4.7.5",
-    "uuid": "^9.0.1",
-    "zod": "^3.23.8"
-  },
+  "homepage": "https://demurgos.github.io/v8-coverage",
   "devDependencies": {
-    "@types/bcrypt": "^5.0.2",
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "@types/jsonwebtoken": "^9.0.6",
-    "@types/node": "^20.14.9",
-    "@types/uuid": "^9.0.8",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.5.3"
-  }
+    "@types/chai": "^4.1.4",
+    "@types/gulp": "^4.0.5",
+    "@types/minimist": "^1.2.0",
+    "@types/mocha": "^5.2.2",
+    "@types/node": "^10.5.4",
+    "chai": "^4.1.2",
+    "codecov": "^3.0.2",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "minimist": "^1.2.0",
+    "pre-commit": "^1.2.2",
+    "ts-node": "^8.3.0",
+    "turbo-gulp": "^0.20.1"
+  },
+  "nyc": {
+    "include": [
+      "build/test/lib/**/*.js",
+      "build/test/lib/**/*.mjs"
+    ],
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "extension": [
+      ".mjs"
+    ]
+  },
+  "gitHead": "529387e2bd3e0ba0b9336d80ec563aee593331e1",
+  "private": false
 }
