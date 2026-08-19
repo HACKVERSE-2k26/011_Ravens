@@ -20,14 +20,14 @@ BloodBridge – Smart Blood Donor Discovery & Emergency Blood Request Management
 The proposed solution connects patients, blood donors, hospitals, blood banks, ambulance services, and administrators through a single digital platform and provides an intelligent workflow for managing blood requirements from emergency request creation to fulfillment.
 
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 Frontend: React.js, Vite, JavaScript, HTML5, CSS3, Tailwind CSS, Lucide React.
 Backend: Node.js, Express.js, REST APIs, MySQL, JWT, bcrypt, CORS, dotenv.
 AI & Tools: Google AI Studio, n8n, AI Voice Agent, Git, GitHub, and Visual Studio Code.
 
 
-## System Architecture
+## 🏗️ System Architecture
 ```
 Users / Donors / Hospitals / Blood Banks / Ambulances
                          ↓
