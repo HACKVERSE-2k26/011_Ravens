@@ -1,6 +1,9 @@
-# BloodBridge
 
-**Smart Blood Donor Discovery & Emergency Blood Request Management Platform**
+
+# Smart Blood Donor Discovery & Emergency Blood Request Management Platform
+
+## Problem Statement 
+BloodBridge is a smart blood donation and emergency blood request management platform that connects blood donors, patients, hospitals, blood banks, and ambulances through a centralized real-time system. It intelligently identifies and prioritizes eligible, available, and nearby blood donors based on blood-group compatibility, location, availability, donation history, and emergency priority. The platform enables hospitals to create urgent blood requests, donors to receive and respond to alerts, and administrators to monitor the complete emergency workflow. It also supports real-time tracking, family member management, email notifications, automated workflows, and future AI/n8n voice-agent integration, helping reduce the time required to find compatible blood during critical situations.
 
 > Backend-first prototype. See `docs/ARCHITECTURE.md` for phase-by-phase
 > status — this is being built incrementally, not all at once.
