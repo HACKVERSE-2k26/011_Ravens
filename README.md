@@ -5,16 +5,23 @@
 ## Problem Statement 
 BloodBridge is a smart blood donation and emergency blood request management platform that connects blood donors, patients, hospitals, blood banks, and ambulances through a centralized real-time system. It intelligently identifies and prioritizes eligible, available, and nearby blood donors based on blood-group compatibility, location, availability, donation history, and emergency priority. The platform enables hospitals to create urgent blood requests, donors to receive and respond to alerts, and administrators to monitor the complete emergency workflow. It also supports real-time tracking, family member management, email notifications, automated workflows, and future AI/n8n voice-agent integration, helping reduce the time required to find compatible blood during critical situations.
 
+## Proposed Solution
+BloodBridge proposes a centralized, real-time digital platform that connects blood donors, patients, hospitals, blood banks, and ambulance services to streamline emergency blood discovery and management.
+
+The platform uses a smart donor-matching system to identify and prioritize eligible donors based on blood-group compatibility, availability, location, donation history, reliability, and emergency priority. Hospitals can create and track blood requests, while compatible donors receive real-time notifications and can accept or decline requests.
+
+The solution also provides blood-bank inventory management, emergency SOS requests, family member management with email confirmation, request tracking, admin monitoring, and automated workflows using n8n and AI voice-agent integration. This creates a coordinated end-to-end emergency workflow that can reduce delays in finding compatible blood and improve emergency response efficiency.
+
 > Backend-first prototype. See `docs/ARCHITECTURE.md` for phase-by-phase
 > status — this is being built incrementally, not all at once.
 
-## Stack
+## Technologies Used
 
 - **Backend:** Node.js, Express, TypeScript, MySQL (`mysql2`), Socket.IO (Phase 9), JWT auth
 - **Frontend:** React + Vite + Tailwind (Phase 15, not started)
 - **Database:** MySQL — full schema in `database/schema.sql`
 
-## Project structure
+## System Architecture
 
 ```
 bloodbridge/
@@ -26,8 +33,99 @@ bloodbridge/
 └── docs/
     └── ARCHITECTURE.md  Phase status + what's real vs. stubbed
 ```
+## Features
+1.User Registration & Secure Login – JWT-based authentication with secure password hashing.
+2.Smart Donor Discovery – Finds compatible donors based on blood group, location, availability, eligibility, and donation history.
+3.Real-Time Donor Sorting – Prioritizes donors who are currently willing and ready to donate.
+4.Emergency Blood Requests – Hospitals can create Critical, Urgent, or Normal blood requests.
+5.Emergency SOS – Quickly initiate a high-priority blood request during emergencies.
+6.Hospital Management – Manage patients, blood requests, donor responses, and request status.
+7.Blood Bank Management – Track blood-group inventory, available units, and emergency requirements.
+8.Ambulance Integration – Connect emergency incidents and preliminary patient requirements with hospitals.
+9.Real-Time Notifications – Notify eligible donors about urgent blood requirements.
+10.Donor Accept/Decline – Donors can respond to requests and update their availability.
 
-## Getting started (backend)
+## Installation
+
+
+Make sure the following are installed:
+
+Node.js v18 or above
+MySQL Server
+Git
+Visual Studio Code
+1. Clone the Repository
+
+```
+clone https://github.com/your-team/BloodBridge.git
+cd BloodBridge 
+```
+
+3. Install Frontend Dependencies
+cd frontend
+npm install
+4. Install Backend Dependencies
+cd ../backend
+npm install
+5. Configure Environment Variables
+
+Create a .env file inside the backend folder:
+
+PORT=5000
+
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=bloodbridge
+
+
+JWT_SECRET=your_jwt_secret
+
+
+FRONTEND_URL=http://localhost:5173
+
+Note: Never commit your .env file or database credentials to GitHub.
+
+5. Set Up the Database
+
+Create the MySQL database:
+
+CREATE DATABASE bloodbridge;
+
+Configure the database credentials in the backend .env file.
+
+6. Start the Backend
+
+Open a terminal:
+
+cd backend
+npm run dev
+
+The backend will run on:
+
+http://localhost:5000
+7. Start the Frontend
+
+Open another terminal:
+
+cd frontend
+npm run dev
+
+The frontend will run on:
+
+http://localhost:5173
+8. Open the Application
+
+Visit:
+
+http://localhost:5173
+
+The BloodBridge – Smart Blood Donor Discovery & Emergency Blood Request Management Platform is now ready for development and testing.
+
+
+
+## How to run
 
 1. Create a MySQL database and load the schema:
    ```bash
