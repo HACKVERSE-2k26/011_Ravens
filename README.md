@@ -129,7 +129,10 @@ Final Deployment / Demonstration
 For your GitHub README, this concise version is suitable.
 
 ## Screenshots
-
+<img width="1892" height="930" alt="Image" src="https://github.com/user-attachments/assets/1f8d18a0-89f8-4eaf-a500-64d9ae565414" /><br><br><br>
+<img width="1902" height="935" alt="Image" src="https://github.com/user-attachments/assets/41820b1b-9ad7-4278-bbb8-12107247a6cd" /><br><br><br>
+<img width="1900" height="913" alt="Image" src="https://github.com/user-attachments/assets/dacaad71-3f99-4a86-97b9-eca07062fe08" /><br><br><br>
+<img width="1907" height="947" alt="Image" src="https://github.com/user-attachments/assets/eaebdef4-a531-4ea4-ae70-1e930c641db6" /><br><br><br>
 
 
 
