@@ -62,15 +62,20 @@ cd BloodBridge
 ```
 
 3. Install Frontend Dependencies
+```
 cd frontend
 npm install
-4. Install Backend Dependencies
+```
+5. Install Backend Dependencies
+```
 cd ../backend
 npm install
-5. Configure Environment Variables
+```
+7. Configure Environment Variables
 
 Create a .env file inside the backend folder:
 
+```
 PORT=5000
 
 
@@ -84,43 +89,45 @@ JWT_SECRET=your_jwt_secret
 
 
 FRONTEND_URL=http://localhost:5173
-
+```
 Note: Never commit your .env file or database credentials to GitHub.
 
 5. Set Up the Database
 
 Create the MySQL database:
-
+```
 CREATE DATABASE bloodbridge;
-
+```
 Configure the database credentials in the backend .env file.
 
 6. Start the Backend
 
 Open a terminal:
-
+```
 cd backend
 npm run dev
-
+```
 The backend will run on:
-
+```
 http://localhost:5000
+```
 7. Start the Frontend
 
 Open another terminal:
-
+```
 cd frontend
 npm run dev
-
+```
 The frontend will run on:
-
+```
 http://localhost:5173
+```
 8. Open the Application
 
 Visit:
-
+```
 http://localhost:5173
-
+```
 The BloodBridge – Smart Blood Donor Discovery & Emergency Blood Request Management Platform is now ready for development and testing.
 
 
@@ -156,6 +163,11 @@ curl -X POST http://localhost:4000/api/auth/login \
   -d '{"email":"test@example.com","password":"password123"}'
 ```
 
+## Demo
+Live URL:https://bloodbridge.ai.studio/
+Demo Video:
+
+
 ## What's built so far
 
 - Full 23-table MySQL schema (users through audit_logs — see `docs/ARCHITECTURE.md` for the full table)
@@ -164,7 +176,7 @@ curl -X POST http://localhost:4000/api/auth/login \
 - Centralized blood compatibility service (single source of truth for all future matching logic)
 - Consistent error format, global error handler, auth + role middleware, zod validation
 
-## What's next
+## Future Enhancements
 
 See **"Next recommended phase"** in `docs/ARCHITECTURE.md`. Short version:
 family-member invitation flow (register → invite → email → accept → verified)
